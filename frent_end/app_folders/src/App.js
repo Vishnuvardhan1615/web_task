@@ -18,7 +18,16 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <div>Hello Vishnu how are you</div>
+       <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <h1 className="text-center">React App</h1>
+            <p className="text-center">This is a simple React App</p>
+            </div>
+          </div>
+        </div>
+       </div>
+
     </div>
   );
 }
