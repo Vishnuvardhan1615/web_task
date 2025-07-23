@@ -9,7 +9,7 @@ const EntryPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent page reload
 
-    fetch('http://localhost:8000/api_calling', {
+    fetch('https://back-end-dev-3.onrender.com/api_calling', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
